@@ -86,7 +86,7 @@ section{
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 15rem;
+      gap: 5rem;
 }
 
 .home-content{
@@ -106,12 +106,6 @@ span{
       color: var(--main-color);
 }
 
-.home-content h3{
-      margin-bottom: 2rem;
-      margin-top: 1rem;
-      font-size: 3.5rem;
-}
-
 .home-content h1{
       font-size: 7rem;
       font-weight: 700;
@@ -120,10 +114,16 @@ span{
 }
 
 .home-content h2{
-      font-size: 2.5rem;
+      font-size: 1.8rem;
       font-weight: 500;
       margin-top: 1.5rem;
       line-height: 0.8;
+}
+
+.home-content h3{
+      margin-bottom: 2rem;
+      margin-top: 1rem;
+      font-size: 3.5rem;
 }
 
 .home-img{
@@ -382,6 +382,13 @@ span{
 }
 
 .timeline-content h3{
+      font-size: 24px;
+      color: white;
+      margin: 0 0 10px;
+      font-weight: 500;
+}
+
+.timeline-content h4{
       font-size: 20px;
       color: white;
       margin: 0 0 10px;
