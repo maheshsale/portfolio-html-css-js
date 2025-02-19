@@ -119,6 +119,13 @@ span{
       line-height: 1;
 }
 
+.home-content h2{
+      font-size: 2.5rem;
+      font-weight: 500;
+      margin-top: 1.5rem;
+      line-height: 0.8;
+}
+
 .home-img{
       border-radius: 50%;
 }
