@@ -86,7 +86,7 @@ section{
       display: flex;
       align-items: center;
       justify-content: center;
-      /* gap: 5rem; */
+      gap: 5rem;
 }
 
 .home-content{
@@ -250,23 +250,23 @@ span{
 @keyframes words{
       0%,
       20%{
-            content: 'Full Stack Developer';
+            content: 'Full Stack Developer.';
       }
       21%,
       40%{
-            content: 'Python Developer';
+            content: 'Python Developer.';
       }
       41%,
       60%{
-            content: 'Frontend Developer';
+            content: 'Frontend Developer.';
       }
       61%,
       80%{
-            content: 'Educator';
+            content: 'Educator.';
       }
       81%,
       100%{
-            content: 'Social Activist';
+            content: 'Social Activist.';
       }
 }
 
@@ -300,6 +300,19 @@ span{
       font-size: 8rem;
       text-align: center;
       margin: 5rem 0;
+
+      @media(max-width: 1200px){
+            font-size: 7rem;
+            margin: 5rem 0;      
+      }
+      @media(max-width: 1000px){
+            font-size: 6rem;
+            margin: 5rem 0;                  
+      }
+      @media(max-width: 600px){
+            font-size: 5.5rem;
+            margin: 5rem 0;      
+      }
 }
 
 .experience{
