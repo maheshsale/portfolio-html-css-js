@@ -354,10 +354,14 @@ span{
 .timeline-item:nth-child(odd){
       padding-right: calc(50% + 30px);
       /* text-align: right; */
+      @media(max-width: 1000px){
+            text-align: left !important;
+      }
 }
 
 .timeline-item:nth-child(even){
       padding-left: calc(50% + 30px);
+      text-align: left;
 }
 
 .timeline-dot{
